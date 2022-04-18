@@ -1,3 +1,20 @@
+"""
+-------------------------------
+| Data Analytics Project Lab  |
+| Dartmouth College           |  
+| Spring 2022                 |
+-------------------------------
+
+This file contains the code needed to build a simple streamlit dashboard that serves a machine learning model 
+to find te probability of survival aboard the titanic. 
+
+Aspects such as model performance, hyperparameter optimization, data preprocessing, and model serving best practices 
+have been ignored for the sake of simplicity. The goal here is to show that one can train, validate, and deploy a machine learning
+model into a cloud dashboard in about 80 lines of code. 
+
+This file can be run from the command line by running: $ streamlit run streamlit_main.py
+"""
+
 import streamlit as st
 import numpy as np
 import pandas as pd
