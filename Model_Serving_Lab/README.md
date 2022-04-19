@@ -10,13 +10,17 @@ This is an extremely bare bones dashboard made using streamlit that trains and s
 
 `$ conda create -n streamlit_demo python=3.9`
 
-2. `cd` to the `Model_Serving_Lab` directory 
+2. Activate the environment by running the following command:
 
-3. Run the following command to install the python libraries you need into your new environment: 
+`$ conda activate streamlit_demo`
+
+3. `cd` to the `Model_Serving_Lab` directory 
+
+4. Run the following command to install the python libraries you need into your new environment: 
 
 `$ pip install -r requirements.txt`
 
-4. You should be all set! Now run the following command to make sure you're set up: 
+5. You should be all set! Now run the following command to make sure you're set up: 
 
 `$ streamlit run streamlit_main.py`
 
