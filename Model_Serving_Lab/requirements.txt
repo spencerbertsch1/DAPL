@@ -1,4 +1,8 @@
 scikit-learn==1.0.2
 pandas==1.4.1
 numpy==1.22.2
-streamlit==1.6.0
+streamlit==1.6.0  
+
+# might need to upgrade to streamlit==1.8.1  
+# pip install --upgrade streamlit  # <-- installs the newest version of streamlit
+# https://discuss.streamlit.io/t/attributeerror-module-click-has-no-attribute-get-os-args/23621
